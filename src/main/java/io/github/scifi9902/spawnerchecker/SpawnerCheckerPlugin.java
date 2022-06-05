@@ -42,6 +42,7 @@ public class SpawnerCheckerPlugin extends JavaPlugin implements Listener {
 
         if (fPlayer == null || !fPlayer.hasFaction()) {
             player.sendMessage(CC.chat("&cYou may only place spawners whilst in a faction."));
+            event.setCancelled(true);
             return;
         }
 
