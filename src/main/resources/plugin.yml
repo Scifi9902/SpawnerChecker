@@ -1,0 +1,5 @@
+name: "SpawnerChecker"
+author: "Scifi9902"
+version: 1.0-SNAPSHOT
+main: io.github.scifi9902.spawnerchecker.SpawnerCheckerPlugin
+depend: [Factions]
